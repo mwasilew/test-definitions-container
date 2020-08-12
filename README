@@ -1,0 +1,1 @@
+docker run -it --volume $PWD:/templates miloszwasilewski/test-definitions-container python3 /test-definitions/plans/testplan2html.py -f /test-definitions/plans/linux-test-plan-example.yaml -s --pdf /templates/tp.pdf --testplan-template-name qcom.html --templates-directory /templates --output /templates
